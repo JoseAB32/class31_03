@@ -1,3 +1,8 @@
+*{
+    color: green;
+    font-weight: bolder;
+}
+
 div {
     width: 250px;
     height: 250px;
@@ -7,9 +12,68 @@ div {
 
 p {
     color: orange; 
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .caja{
     background-color: rgb(0, 0, 0);
+}
+
+.otra_caja{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.una_caja_mas{
+    width: 250px;
+    height: 250px;
+    background-color: #4db7b7;
+}
+
+.capibara{
+    width: 250px;
+    height: 250px;
+    background-color: hsla(180, 100%, 90%, 0.5);
+}
+
+#SoyUnico{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+
+a[title]{
+    color: red;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+input[type="text"]:disabled{
+    background-color: yellow;
+    color: black;
+}
+
+p::first-line{
+    color: green;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 45px;
+}
+
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin: 5px;
+}
+
+.padre p{
+    color: red;
 }
