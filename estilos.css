@@ -1,0 +1,15 @@
+div {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    color: white;
+}
+
+p {
+    color: orange; 
+    font-size: 5rem;
+}
+
+.caja{
+    background-color: rgb(0, 0, 0);
+}
