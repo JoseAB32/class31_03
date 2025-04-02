@@ -1,9 +1,16 @@
-*{
+/* *{
     color: green;
     font-weight: bolder;
-}
+} */
 
-div {
+/* div {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    color: white;
+} */
+
+#primC{
     width: 250px;
     height: 250px;
     background-color: blue;
@@ -17,6 +24,9 @@ p {
 
 .caja{
     background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 250px;
+    color: white;
 }
 
 .otra_caja{
@@ -58,11 +68,11 @@ input[type="text"]:disabled{
     color: black;
 }
 
-p::first-line{
+.padre p::first-line{
     color: green;
 }
 
-p::first-letter{
+.padre p::first-letter{
     color: red;
     font-size: 45px;
 }
@@ -76,4 +86,80 @@ p::first-letter{
 
 .padre p{
     color: red;
+}
+
+#unico {
+    color: red;
+}
+
+p#unico.foo{
+    color: red;
+}
+
+p#unico.foo.bar{
+    color: green;
+}
+
+p#unico.foo.bar.baz{
+    color: lightblue!important;
+}
+
+.main{
+    color: rebeccapurple;
+    border: 2px solid #CCC;
+    padding: 1em;
+}
+
+.special{
+    color: red;
+    font-weight: bolder;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+
+.CajaRelative{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15, 125, 36);
+}
+
+.cajaInterior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.CajaRelative .cajaInterior p{
+    font-size: 4rem;
+}
+
+body{
+    margin: 0;
+}
+
+.VP{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 231, 79);
+}
+
+.ModCaj{
+    background-color: salmon;
+    width: 250px;
+    height: 250px;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    padding: 25px;;
+    /* border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px dashed green; */
+    border: 12px solid yellow;
+    margin: 25px;
 }
